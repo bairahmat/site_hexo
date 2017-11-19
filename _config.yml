@@ -1,0 +1,40 @@
+title: BantOS
+subtitle: "Operation System for Banten E-Government, Banten Education"
+description: "BantOS adalah distro Linux turunan debian yang dikembangkan oleh Tim Developer Banten. Dengan mewujudkan Banten Open Source, BantOS dikembangkan secara terbuka dan bersama-sama untuk menghasilkan distro Linux pemrograman untuk Pemerintahan, Pendidikan"
+author: Tim Developer Banten
+language: en
+timezone: UTC
+
+url: http://linux.dev.bantenprov.go.id
+root: /
+permalink: news/:year/:month/:day/:title/
+archive_dir: news
+code_dir: downloads/code
+new_post_name: :year-:month-:day-:title.md # File name of new posts
+post_asset_folder: true
+per_page: 0
+
+theme: navy
+deploy:
+  type: git
+  repo: git@github.com:bairahmat/site_hexo.git
+
+highlight:
+  enable: true
+  line_number: false
+
+disqus_shortname: 
+google_analytics: 
+fb_admins: 
+algolia:
+  en:
+    api_key: c3d5d4c995b5e0c2ffb5623900279a66
+    index_name: hexo
+  zh-tw:
+    api_key: c83d2ec3440f40aec6d0e695ecec7ef3
+    index_name: hexo_zh-tw
+  zh-cn:
+    api_key: cdea7d4e47d84f6145b77e7f68689f35
+    index_name: hexo_zh-cn
+twitter: devBanten
+github: bairahmat/site_hexo
