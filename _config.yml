@@ -1,11 +1,11 @@
-title: BantOS
-subtitle: "Operation System for Banten E-Government, Banten Education"
-description: "BantOS adalah distro Linux turunan debian yang dikembangkan oleh Tim Developer Banten. Dengan mewujudkan Banten Open Source, BantOS dikembangkan secara terbuka dan bersama-sama untuk menghasilkan distro Linux pemrograman untuk Pemerintahan, Pendidikan"
-author: Tim Developer Banten
+title: Sameknet | Warnet Sehat
+subtitle: "Warnet Sameknet"
+description: "Warnet Sameknet adalah warnet yang berusaha untuk menjadi warnet sehat"
+author: Bai Rahmat
 language: en
 timezone: UTC
 
-url: http://linux.dev.bantenprov.go.id
+url: http://sameknet.com
 root: /
 permalink: news/:year/:month/:day/:title/
 archive_dir: news
@@ -36,5 +36,5 @@ algolia:
   zh-cn:
     api_key: cdea7d4e47d84f6145b77e7f68689f35
     index_name: hexo_zh-cn
-twitter: devBanten
+twitter: bai_rahmat
 github: bairahmat/site_hexo
