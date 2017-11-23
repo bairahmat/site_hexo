@@ -15,13 +15,6 @@ Don't know where to start? Pick up any item in [Hexo 4.0 Road Map](https://githu
 
 ## Donate
 
-{% note info Bitcoin %}
-<p align="center">
-![QR Code](bitcoin_qr.png)
-[3M9wCDjRCSkj2ecwuZc3ReJETWRow43UYg](bitcoin:3M9wCDjRCSkj2ecwuZc3ReJETWRow43UYg)
-</p>
-{% endnote %}
-
 #### Why?
 
 First of all, many people have asked about donation, so here it is!
