@@ -19,9 +19,7 @@ content
 **No arguments. Plain blockquote.**
 
 ```
-{% blockquote %}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempor elit, quis aliquam neque. Curabitur sed diam eget dolor fermentum semper at eu lorem.
-{% endblockquote %}
 ```
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempor elit, quis aliquam neque. Curabitur sed diam eget dolor fermentum semper at eu lorem.
@@ -29,26 +27,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit 
 **Quote from a book**
 
 ```
-{% blockquote David Levithan, Wide Awake %}
 Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.
-{% endblockquote %}
 ```
 
-{% blockquote David Levithan, Wide Awake %}
 Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.
-{% endblockquote %}
 
 **Quote from Twitter**
 
 ```
-{% blockquote @DevDocs https://twitter.com/devdocs/status/356095192085962752 %}
 NEW: DevDocs now comes with syntax highlighting. http://devdocs.io
-{% endblockquote %}
 ```
 
-{% blockquote @DevDocs https://twitter.com/devdocs/status/356095192085962752 %}
 NEW: DevDocs now comes with syntax highlighting. http://devdocs.io
-{% endblockquote %}
 
 **Quote from an article on the web**
 
@@ -67,9 +57,7 @@ Useful feature for adding code snippets to your post.
 **Alias:** code
 
 ```
-{% codeblock [title] [lang:language] [url] [link text] %}
 code snippet
-{% endcodeblock %}
 ```
 
 ### Examples
@@ -77,9 +65,7 @@ code snippet
 **A plain code block**
 
 ```
-{% codeblock %}
 alert('Hello World!');
-{% endcodeblock %}
 ```
 
 
@@ -89,33 +75,27 @@ alert('Hello World!');
 **Specifying the language**
 
 ```
-{% codeblock lang:objc %}
 [rectangle setX: 10 y: 10 width: 20 height: 20];
-{% endcodeblock %}
 ```
 
 
 **Adding a caption to the code block**
 
 ```
-{% codeblock Array.map %}
 array.map(callback[, thisArg])
-{% endcodeblock %}
 ```
 
 **Adding a caption and a URL**
 
 ```
-{% codeblock _.compact http://underscorejs.org/#compact Underscore.js %}
 _.compact([0, 1, false, 2, '', 3]);
 => [1, 2, 3]
-{% endcodeblock %}
 ```
 
-{% codeblock _.compact http://underscorejs.org/#compact Underscore.js %}
+
 _.compact([0, 1, false, 2, '', 3]);
 => [1, 2, 3]
-{% endcodeblock %}
+
 
 ## Backtick Code Block
 
@@ -130,9 +110,9 @@ code snippet
 To add pull quotes to your posts:
 
 ```
-{% pullquote [class] %}
+
 content
-{% endpullquote %}
+
 ```
 
 ## jsFiddle
@@ -140,7 +120,6 @@ content
 To embed a jsFiddle snippet:
 
 ```
-{% jsfiddle shorttag [tabs] [skin] [width] [height] %}
 ```
 
 ## Gist
@@ -148,7 +127,6 @@ To embed a jsFiddle snippet:
 To embed a Gist snippet:
 
 ```
-{% gist gist_id [filename] %}
 ```
 
 ## iframe
@@ -156,7 +134,6 @@ To embed a Gist snippet:
 To embed an iframe:
 
 ```
-{% iframe url [width] [height] %}
 ```
 
 ## Image
@@ -164,7 +141,6 @@ To embed an iframe:
 Inserts an image with specified size.
 
 ```
-{% img [class names] /path/to/image [width] [height] [title text [alt text]] %}
 ```
 
 ## Link
@@ -172,7 +148,6 @@ Inserts an image with specified size.
 Inserts a link with `target="_blank"` attribute.
 
 ```
-{% link text url [external] [title] %}
 ```
 
 ## Include Code
@@ -180,7 +155,6 @@ Inserts a link with `target="_blank"` attribute.
 Inserts code snippets in `source/downloads/code` folder.
 
 ```
-{% include_code [title] [lang:language] path/to/file %}
 ```
 
 ## YouTube
@@ -188,7 +162,6 @@ Inserts code snippets in `source/downloads/code` folder.
 Inserts a YouTube video.
 
 ```
-{% youtube video_id %}
 ```
 
 ## Vimeo
@@ -196,7 +169,6 @@ Inserts a YouTube video.
 Inserts a Vimeo video.
 
 ```
-{% vimeo video_id %}
 ```
 
 ## Include Posts
@@ -204,8 +176,6 @@ Inserts a Vimeo video.
 Include links to other posts.
 
 ```
-{% post_path slug %}
-{% post_link slug [title] %}
 ```
 
 ## Include Assets
@@ -213,9 +183,6 @@ Include links to other posts.
 Include post assets.
 
 ```
-{% asset_path slug %}
-{% asset_img slug [title] %}
-{% asset_link slug [title] %}
 ```
 
 ## Raw
@@ -223,9 +190,9 @@ Include post assets.
 If certain content is causing processing issues in your posts, wrap it with the `raw` tag to avoid rendering errors.
 
 ```
-{% raw %}
+
 content
-{% endraw %}
+
 ```
 
 
