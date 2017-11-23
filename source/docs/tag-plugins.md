@@ -2,7 +2,6 @@ title: Tag Plugins
 ---
 Tag plugins are different from post tags. They are ported from Octopress and provide a useful way for you to quickly add specific content to your posts.
 
-{% youtube I07XMi7MHd4 %}
 
 ## Block Quote
 
