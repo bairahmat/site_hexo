@@ -25,9 +25,7 @@ $ npm install -g hexo-cli
 
 If not, please follow the following instructions to install all the requirements.
 
-{% note warn For Mac users %}
 You may encounter some problems when compiling. Please install Xcode from App Store first. After Xcode is installed, open Xcode and go to **Preferences -> Download -> Command Line Tools -> Install** to install command line tools.
-{% endnote %}
 
 ### Install Git
 
