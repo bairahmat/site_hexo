@@ -46,15 +46,12 @@ When your plugin is ready, you may consider publishing it to the [plugin list](/
 1. Fork [hexojs/site]
 2. Clone the repository to your computer and install dependencies.
 
-    {% code %}
     $ git clone https://github.com/<username>/site.git
     $ cd site
     $ npm install
-    {% endcode %}
 
 3. Edit `source/_data/plugins.yml` and add your plugin. For example:
 
-    {% code %}
     - name: hexo-server
       description: Server module for Hexo.
       link: https://github.com/hexojs/hexo-server
@@ -62,7 +59,6 @@ When your plugin is ready, you may consider publishing it to the [plugin list](/
         - official
         - server
         - console
-    {% endcode %}
 
 4. Push the branch.
 5. Create a pull request and describe the change.
