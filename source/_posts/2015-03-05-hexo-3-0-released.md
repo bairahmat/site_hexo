@@ -19,13 +19,6 @@ More info: [Breaking Changes in Hexo 3.0], [changelog]
 
 1. Modify `package.json`.
 
-    {% code %}
-    {
-      "hexo": {
-        "version": ""
-      }
-    }
-    {% endcode %}
     
 2. Install [hexo-cli]. If any error occurred, try to remove hexo first.
 
