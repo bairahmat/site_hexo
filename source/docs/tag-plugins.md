@@ -10,9 +10,8 @@ Perfect for adding quotes to your post, with optional author, source and title i
 **Alias:** quote
 
 ```
-{% blockquote [author[, source]] [link] [source_link_title] %}
 content
-{% endblockquote %}
+
 ```
 
 ### Examples
@@ -25,9 +24,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit 
 {% endblockquote %}
 ```
 
-{% blockquote %}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempor elit, quis aliquam neque. Curabitur sed diam eget dolor fermentum semper at eu lorem.
-{% endblockquote %}
 
 **Quote from a book**
 
@@ -61,9 +58,7 @@ Every interaction is both precious and an opportunity to delight.
 {% endblockquote %}
 ```
 
-{% blockquote Seth Godin http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html Welcome to Island Marketing %}
 Every interaction is both precious and an opportunity to delight.
-{% endblockquote %}
 
 ## Code Block
 
@@ -87,9 +82,9 @@ alert('Hello World!');
 {% endcodeblock %}
 ```
 
-{% codeblock %}
+
 alert('Hello World!');
-{% endcodeblock %}
+
 
 **Specifying the language**
 
@@ -99,9 +94,6 @@ alert('Hello World!');
 {% endcodeblock %}
 ```
 
-{% codeblock lang:objc %}
-[rectangle setX: 10 y: 10 width: 20 height: 20];
-{% endcodeblock %}
 
 **Adding a caption to the code block**
 
@@ -110,10 +102,6 @@ alert('Hello World!');
 array.map(callback[, thisArg])
 {% endcodeblock %}
 ```
-
-{% codeblock Array.map %}
-array.map(callback[, thisArg])
-{% endcodeblock %}
 
 **Adding a caption and a URL**
 
@@ -133,11 +121,9 @@ _.compact([0, 1, false, 2, '', 3]);
 
 This is identical to using a code block, but instead uses three backticks to delimit the block.
 
-{% raw %}
 &#96`` [language] [title] [url] [link text]
 code snippet
 &#96;``
-{% endraw %}
 
 ## Pull Quote
 
